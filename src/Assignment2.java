@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Assignment2 {
     /**
      * Question 1
@@ -10,14 +12,14 @@ public class Assignment2 {
      * Question 2
      */
     public static int[] addsUp(int x, int[] array) {
-        return new int[2];
+        return new int[]{-1, -1};
     }
 
     /**
      * Question 3
      */
-    public static int oddTimes(int[] array) {
-        return -1;
+    public static int oddTimes(int[] array){
+        return array[array.length-1];
     }
 
     /**
@@ -30,7 +32,7 @@ public class Assignment2 {
     /**
      * Question 5
      */
-    public static int[][] areReverses(int[] array) {
+    public static int[][] areReverses(int[][] array) {
         return new int[0][0];
     }
 
@@ -38,7 +40,7 @@ public class Assignment2 {
      * Question 6
      */
     public static int[] inOrderOfAppearance(int[] array){
-        return array;
+        return new int[0];
     }
 
     /**
