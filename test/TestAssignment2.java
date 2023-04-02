@@ -2,7 +2,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import java.util.List;
 
-public class TestFoo {
+public class TestAssignment2 {
 
     @ParameterizedTest
     @CsvFileSource(files = "/workspaces/assignment2/csv/test.csv", numLinesToSkip = 1)
