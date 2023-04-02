@@ -6,6 +6,8 @@ Total points: 75
 
 Each question is worth 5 points for code and 5 points for the writeup. An additional 5 points is available for finding the extra credit solution (question 3).
 
+## Questions
+
 1. Given a string `a` and a string `b`, return `true` if `a` is an anagram of `b`. That is, can you reorder the characters of `a` to get `b` or vice-versa?
 	* Solve the problem in O(n^2) time.
 	* Solve the problem in O(nlogn) time.
