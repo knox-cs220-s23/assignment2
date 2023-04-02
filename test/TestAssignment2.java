@@ -3,14 +3,17 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 import java.util.List;
 
 public class TestAssignment2 {
+    static String baseDir = "/workspaces/assignment2/csv/"
+
+    public void prepareFiles() {
+        String anagramTests = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRmL8b78ABiAtM5sgbHrgMWvLl1LvhX-kwN54mjB2TC-goKYedPlHDm-oF9NQi8IvHM0_Iix7sn7bwy/pub?gid=0&single=true&output=csv"
+        FileDownloader.downloadFile(anagramTests, baseDir+"anagramTests.csv")
+
+    }
 
     @ParameterizedTest
-    @CsvFileSource(files = "/workspaces/assignment2/csv/test.csv", numLinesToSkip = 1)
-    public void test2(String input, String output) {
-        List<List<Integer>> nestedArray = ArrayLoader.loadNestedArrayFromString(input);
-        List<List<Integer>> expected = ArrayLoader.loadNestedArrayFromString(output);
-        System.out.println(nestedArray);
-        System.out.println(expected);
+    @CsvFileSource(files = baseDir + "anagramTests.csv", numLinesToSkip = 1)
+    public void testAnagrams(String word1, String word2, String anagram) {
         assert true;
     }
 
