@@ -1,4 +1,11 @@
 # Assignment 2
+
+For each problem below, provide writeups of the solutions. Provide a naive solution and then any more efficient solutions you can find. Then, implement the most efficient solution you were able to find. Comment your code well.
+
+Total points: 75
+
+Each question is worth 5 points for code and 5 points for the writeup. An additional 5 points is available for finding the extra credit solution (question 3).
+
 1. Given a string `a` and a string `b`, return `true` if `a` is an anagram of `b`. That is, can you reorder the characters of `a` to get `b` or vice-versa?
 	* Solve the problem in O(n^2) time.
 	* Solve the problem in O(nlogn) time.
@@ -13,7 +20,7 @@
 	* Examples:
 		* `[3, 5, 4, 16, 6]` and `10` returns `[2,4]`.
 		* `[5, 10, 15, 20, 25, 30, 35]` and `55` returns `[4,5]`.
-3. Given an integer array, duplicates are present in it in a way that all duplicates appear an even number of times except one which appears an odd number of times. Find that odd appearing element in linear time and without using any extra memory.
+3. Given an integer array, duplicates are present in it in a way that all duplicates appear an even number of times except one which appears an odd number of times. Find that odd appearing element. [Extra Credit] Find a solution using linear time and without using any extra memory.
 	* Examples:
 		* `[1, 2, 3, 4, 5, 4, 3, 2, 1]` returns `5`.
 		* `[60,5,60,4,5,60,4]` returns `60`. 
