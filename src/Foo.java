@@ -1,9 +1,0 @@
-public class Foo {
-    public static void main(String[] args) {
-        System.out.println("hello world");
-    }
-
-    public static boolean foo(){
-        return false;
-    }
-}
