@@ -6,6 +6,8 @@ Total points: 75
 
 Each question is worth 5 points for code and 5 points for the writeup. An additional 5 points is available for finding the extra credit solution (question 3).
 
+List names of anyone you discuss problems with. You may not google any portion of the question. You may google the running time of explicit operations on data structures (eg `what is the time complexity of insert(x) in a priority queue`). You may search for how to use java APIs. Leave links to any resources you as comments in your code.
+
 ## Questions
 
 1. Given a string `a` and a string `b`, return `true` if `a` is an anagram of `b`. That is, can you reorder the characters of `a` to get `b` or vice-versa?
