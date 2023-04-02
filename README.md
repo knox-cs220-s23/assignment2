@@ -2,11 +2,16 @@
 
 For each problem below, provide writeups of the solutions. Provide a naive solution and then any more efficient solutions you can find. Then, implement the most efficient solution you were able to find. Comment your code well.
 
+## Testing
+Enable testing the same way you enabled testing for the Design Problem assignment EXCEPT make sure to choose `JUnit Jupiter` as your testing environment.
+
 Total points: 75
 
 Each question is worth 5 points for code and 5 points for the writeup. An additional 5 points is available for finding the extra credit solution (question 3).
 
 List names of anyone you discuss problems with. You may not google any portion of the question. You may google the running time of explicit operations on data structures (eg `what is the time complexity of insert(x) in a priority queue`). You may search for how to use java APIs. Leave links to any resources you as comments in your code.
+
+Do all of your work in the codespace. I provide no warranty for the testing framework outside the codespaces environment.
 
 ## Questions
 
