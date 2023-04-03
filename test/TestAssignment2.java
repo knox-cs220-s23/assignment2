@@ -23,6 +23,7 @@ public class TestAssignment2 {
         assert Assignment2.isAnagram(word1, word2) == anagram;
     }
 
+    @ParameterizedTest(name = "[{0}:{1}:{2}]")
     @CsvFileSource(files = "addsUp.csv", numLinesToSkip = 1)
     public void testAddsUp(String nums, int target, String output) {
         int[] op = ArrayLoader.loadArrayFromString(output);
